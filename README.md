@@ -18,8 +18,8 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 
 ### Links
 
-- Solution URL: [Solution URL here](#)
-- Live Site URL: [Live site URL here](#)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/responsive-fylo-data-storage-component-sass-XsACh3HzrS)
+- Live Site URL: [Live site URL here](https://nurularifin83.github.io/Fylo-data-storage-component/)
 
 ## My process
 
