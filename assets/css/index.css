@@ -160,7 +160,7 @@ img {
 
 @media (min-width: 375px) {
   body {
-    background-image: url("/assets/images/bg-mobile.png");
+    background-image: url("https://raw.githubusercontent.com/nurularifin83/Fylo-data-storage-component/main/assets/images/bg-mobile.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -245,7 +245,7 @@ img {
 }
 @media (min-width: 1440px) {
   body {
-    background-image: url("/assets/images/bg-desktop.png");
+    background-image: url("https://raw.githubusercontent.com/nurularifin83/Fylo-data-storage-component/main/assets/images/bg-desktop.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
