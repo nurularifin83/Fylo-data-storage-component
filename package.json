@@ -1,0 +1,24 @@
+{
+  "name": "fylo-data-storage-component-master",
+  "version": "1.0.0",
+  "description": "fylo data stora component page",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "frontendmentor",
+    "HMTL",
+    "CSS",
+    "SASS",
+    "Responsive",
+    "Intermediate"
+  ],
+  "author": "Nurul Arifin",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.71.1"
+  }
+}

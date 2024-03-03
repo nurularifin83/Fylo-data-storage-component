@@ -1,0 +1,12 @@
+footer {
+    padding: 15px;
+    font-size: 12px;
+    &.attribution {
+        a {
+            color: inherit;
+            &:hover {
+                color: hsl(212, 86%, 64%);
+            }
+        }
+    }
+}

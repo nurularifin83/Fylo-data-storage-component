@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+$bs-font-raleway: "Raleway", sans-serif;
+
+$bs-body-font-family: $bs-font-raleway !default;
+$bs-body-font-size: 14px !default;
+$bs-body-font-weight: 400 !default;
+$bs-body-line-height: 1.5 !default;
+$bs-body-font-weight: 400 !default;
+
+/*Color*/
+//Primary
+$gradient:  hsl(6, 100%, 80%),hsl(335, 100%, 65%);
+
+//Neutral
+$pale-blue: hsl(243, 100%, 93%) !default;
+$grayis-blue: hsl(229, 7%, 55%) !default;
+$dark-blue: hsl(228, 56%, 26%) !default;
+$very-dark-blue: hsl(229, 57%, 11%) !default;
+
+$bs-heading-color: inherit !default;
+
+$bs-gutter-x: 1.5rem !default;
+$bs-gutter-y: 0 !default;

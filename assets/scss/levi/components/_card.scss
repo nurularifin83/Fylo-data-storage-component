@@ -1,0 +1,147 @@
+.card {
+    padding: 35px;
+    &-1 {
+        border-radius: 8px 80px 8px 8px;
+        background-color: $dark-blue;
+        height: 193px;
+    }
+    &-2 {
+        border-radius: 8px 8px 8px 8px;
+        background-color: $dark-blue;
+        margin-top: 30px;
+        .main-progressbar {
+            width: 100%;
+            background-color: $very-dark-blue;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            border: 4px solid $very-dark-blue;
+            .progressbar {
+                width: 70%;
+                height: 15px;
+                background: linear-gradient($gradient);
+                border-radius: 20px;
+            }
+            .dot {
+                margin-left: -15px;
+                width: 15px;
+                height: 15px;
+                background-color: $pale-blue;
+                border-radius: 100px;
+            }
+        }
+    }
+    .icons {
+        padding-top: 20px;
+        display: flex;
+        .icon-detail {
+            margin: 0px 20px 0px 0;
+            padding: 10px;
+            background-color: $very-dark-blue;
+            border-radius: 8px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            img {
+                width: 25px;
+                height: 20px;
+            }
+        }
+    }
+    p span {
+        font-weight: 600;
+    }
+    .lr {
+        .left {
+            font-weight: 600; 
+        }
+        .right {
+             font-weight: 600;
+             float: right;
+        }
+    }
+}
+
+.notif-content {
+    display: none;
+}
+
+@include xs {
+    .card {
+        p {
+            text-align: center;
+        }
+        .lr {
+            margin: 10px 0 20px 0;
+        }
+    }
+    .card-2 {
+        margin-top: 15px;
+    }
+    .notif {
+        background-color: $pale-blue;
+        height: 70px;
+        width: 170px;
+        border-radius: 10px;
+        color: $very-dark-blue;
+        text-transform: uppercase;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -35px;
+        .notif-content {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            span {
+                font-weight: 800;
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+@include lg {
+    .card {
+        p {
+            text-align: left;
+        }
+        .lr {
+            margin: 10px 0 0 0;
+        }
+    }
+    .card-2 {
+        margin-top: 30px;
+    }
+    .notif {
+        position: absolute;
+        background-color: $pale-blue;
+        height: 70px;
+        width: 170px;
+        border-radius: 10px 10px 0px 10px;
+        right: 0;
+        top: 0;
+        margin-top: -15px;
+        margin-right: 45px;
+        color: $very-dark-blue;
+        text-transform: uppercase;
+        .notif-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            text-align: center;
+            span {
+                font-weight: 800;
+                font-size: 2rem;
+            }
+        }
+        .sub-notif {
+            margin-top: 40%;
+            border-left: 25px solid transparent; 
+            border-top: 25px solid $pale-blue;
+            margin-left: 85%;
+        }
+    }
+}
