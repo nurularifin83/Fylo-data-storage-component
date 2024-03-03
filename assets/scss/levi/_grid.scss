@@ -1,8 +1,8 @@
 @use 'sass:math';
 
 $grid-columns: 12;
-$img-mobile: url("/assets/images/bg-mobile.png");
-$img-desktop: url("/assets/images/bg-desktop.png");
+$img-mobile: url("https://raw.githubusercontent.com/nurularifin83/Fylo-data-storage-component/main/assets/images/bg-mobile.png");
+$img-desktop: url("https://raw.githubusercontent.com/nurularifin83/Fylo-data-storage-component/main/assets/images/bg-desktop.png");
 
 .container {
   width: 100%;
